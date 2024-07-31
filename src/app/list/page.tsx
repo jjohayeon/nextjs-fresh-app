@@ -8,8 +8,8 @@ export default function List() {
       <h4>List Page</h4>
       <div>
         {product.map((item, i) => (
-          <div className="food" key={i}>\
-            
+          <div className="food" key={i}>
+
             <h4>{item} $40</h4>
           </div>
         ))}
